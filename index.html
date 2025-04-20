@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPS Webworks - Elevate Your Online Presence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" alt="SPS Webworks Logo" class="logo-img">
+                <h1>SPS <span>Webworks</span></h1>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Our Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Elevate Your Online Presence</h1>
+                <p>We create powerful digital marketing strategies that deliver results.</p>
+                <a href="#contact" class="btn-primary">Schedule a Free Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive digital marketing solutions to grow your business</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Content Curation</h3>
+                    <p>High-quality videography and photography services with precision-crafted photos, professional reels highlighting your key services.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Social Media Management</h3>
+                    <p>Manage your Instagram and Facebook pages, create custom-designed posts, handle direct messages, and run targeted ads.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h3>Google Ads</h3>
+                    <p>Design and manage Google Ads campaigns, create impactful ads for search results and Display Network, with a pay-per-click model.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Google My Business Profile</h3>
+                    <p>Update your profile regularly, post consistent updates, manage customer reviews, and run targeted ads to enhance local visibility.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Develop customized, multi-page websites with appointment booking forms, service showcases, and ongoing maintenance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Influencer Marketing</h3>
+                    <p>Connect your brand with influential personalities to boost visibility and engagement with your target audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Work</h2>
+                <p>See how we've helped businesses elevate their online presence</p>
+            </div>
+            <div class="portfolio-grid">
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-thumbnail">
+                        <img src="metrics.jpg" alt="Google Ads Campaign">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Google Ads Campaign</h3>
+                        <p>PPC Marketing Metrics</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumbnail">
+                        <img src="insta.jpg" alt="Social Media Management">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Instagram Management</h3>
+                        <p>Social Media Marketing</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumbnail">
+                        <img src="foto.jpg" alt="Content Creation">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Content Creation</h3>
+                        <p>Creative Photography</p>
+                    </div>
+                </div>
+                
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img id="modalImage" class="modal-content">
+        <div id="modalCaption"></div>
+    </div>
+
+    <!-- Focus Section -->
+    <section class="focus">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Main Focus</h2>
+                <p>Driving real results for your business</p>
+            </div>
+            <div class="focus-grid">
+                <div class="focus-card">
+                    <div class="icon">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <h3>Clicks</h3>
+                    <p>Each click reflects potential customer interest, driving traffic directly to your website and increasing conversion likelihood.</p>
+                </div>
+                <div class="focus-card">
+                    <div class="icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Impressions</h3>
+                    <p>High impressions build brand visibility, ensuring your business stays top-of-mind as users see your ads across their online journey.</p>
+                </div>
+                <div class="focus-card">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Conversions</h3>
+                    <p>We maximize your advertising budget with a results-oriented approach to increase client inquiries and visits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Elevate Your Online Presence?</h2>
+            <p>Schedule a free call today to learn how we can help your business reach new heights.</p>
+            <a href="#contact" class="btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch to discuss how we can help your business</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>SPS Webworks, Marathahalli</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 8949735291 / +91 7624935918</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>spswebworks@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <h2>SPS <span>Webworks</span></h2>
+                </div>
+                <!-- <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 SPS Webworks. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
